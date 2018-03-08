@@ -12,7 +12,7 @@ sum(oneto200)
 
 
 
-/** EXAMPLE ABOVE IS RECURSIVE  - this will take each number from the accumalator store it in a stack until it reaches the end of the list which is NIL it will then run back down the stack and calculate the sum... problem with this is that it can only hold so much of the stack in memory before throwing stackoverflow Error**/
+/** EXAMPLE ABOVE IS RECURSIVE  - this will take each number from the accumalator store it in a stack until it reaches the end of the list which is NIL it will then run back down the stack and calculate the sum... problem with this is that it can only hold so much of the stack in memory before throwing stackoverflow Error **/
 
 def sumTailRecursive (nums : List[Int]) : Int = {
 
