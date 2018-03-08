@@ -22,5 +22,5 @@ val printNumbers: Unit = numbers.foreach(x => println(x))
 // Result: (prints numbers 1 to 10 with newlines between each)
 
 // mkString - creates a string by calling toString on each element, separated by the string provided
-val commaSeparated = numbers.mkString(",")
+val commaSeparated = numbers.mkString(",").indexWhere
 // Result: 1,2,3,4,5,6,7,8,9,10
